@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HVAC Repair & Service in Licking County, Ohio | Heating & Cooling</title>
+<meta name="description" content="HVAC repair, heating, and air conditioning service in Newark, Heath, Granville, Pataskala, Utica, Buckeye Lake, Hebron, Johnstown, and New Albany Ohio. Local Licking County HVAC contractors. Call for a free estimate.">
+<meta name="keywords" content="HVAC repair Newark Ohio, heating and cooling Licking County, AC repair Heath OH, furnace repair Granville Ohio, HVAC contractor Pataskala, heating repair Utica Ohio, AC service Buckeye Lake, HVAC Hebron Ohio, furnace Johnstown Ohio, AC repair New Albany Ohio">
+<link rel="canonical" href="https://www.lickingcountyhvac.com/">
+
+<!-- Local Business Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Licking County HVAC",
+  "description": "HVAC repair, heating, and air conditioning service in Licking County, Ohio",
+  "url": "https://www.lickingcountyhvac.com",
+  "telephone": "YOUR-CALLRAIL-NUMBER",
+  "areaServed": ["Newark OH", "Heath OH", "Granville OH", "Pataskala OH", "Utica OH", "Buckeye Lake OH", "Hebron OH", "Johnstown OH", "New Albany OH", "Licking County OH"],
+  "serviceType": ["HVAC Repair", "Furnace Repair", "AC Repair", "Heating Installation", "Air Conditioning Installation"]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --navy:#0D1F3C;
+  --navy2:#162D52;
+  --blue:#1A5EBF;
+  --orange:#E8560A;
+  --orange2:#FF6B1A;
+  --bg:#F5F6F8;
+  --white:#FFFFFF;
+  --text:#1A1A2E;
+  --text2:#4A5568;
+  --text3:#718096;
+  --border:#E2E8F0;
+  --sans:'Barlow',sans-serif;
+  --cond:'Barlow Condensed',sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans);background:var(--white);color:var(--text);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;}
+
+/* UTILITY */
+.container{max-width:1140px;margin:0 auto;padding:0 24px;}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--orange);color:#fff;border:none;border-radius:4px;padding:14px 28px;font-family:var(--sans);font-size:15px;font-weight:700;cursor:pointer;transition:all 0.2s;letter-spacing:0.01em;}
+.btn-primary:hover{background:var(--orange2);transform:translateY(-1px);}
+.btn-ghost{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--white);border:2px solid rgba(255,255,255,0.5);border-radius:4px;padding:13px 28px;font-family:var(--sans);font-size:15px;font-weight:600;cursor:pointer;transition:all 0.2s;}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,0.1);}
+.section-label{font-size:12px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--orange);margin-bottom:12px;}
+
+/* TOP BAR */
+.topbar{background:var(--navy);padding:8px 0;}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;}
+.topbar-left{font-size:13px;color:rgba(255,255,255,0.7);display:flex;align-items:center;gap:20px;}
+.topbar-left span{display:flex;align-items:center;gap:6px;}
+.topbar-phone{font-size:15px;font-weight:700;color:var(--orange2);display:flex;align-items:center;gap:8px;letter-spacing:0.01em;}
+
+/* NAV */
+nav{background:var(--white);border-bottom:3px solid var(--orange);box-shadow:0 2px 12px rgba(0,0,0,0.08);position:sticky;top:0;z-index:100;}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px;}
+.logo{display:flex;flex-direction:column;line-height:1;}
+.logo-main{font-family:var(--cond);font-size:24px;font-weight:800;color:var(--navy);letter-spacing:0.02em;text-transform:uppercase;}
+.logo-main span{color:var(--orange);}
+.logo-sub{font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--text3);}
+.nav-links{display:flex;align-items:center;gap:32px;}
+.nav-links a{font-size:14px;font-weight:600;color:var(--text2);transition:color 0.2s;letter-spacing:0.01em;}
+.nav-links a:hover{color:var(--orange);}
+.nav-cta{background:var(--orange);color:#fff;border:none;border-radius:4px;padding:10px 20px;font-family:var(--sans);font-size:14px;font-weight:700;cursor:pointer;transition:all 0.2s;white-space:nowrap;}
+.nav-cta:hover{background:var(--orange2);}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 60%,#1a3a6e 100%);padding:80px 0 90px;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.03) 1px,transparent 1px);background-size:48px 48px;}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--orange),var(--orange2),var(--orange));}
+.hero-inner{display:grid;grid-template-columns:1fr 420px;gap:60px;align-items:center;position:relative;z-index:1;}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(232,86,10,0.15);border:1px solid rgba(232,86,10,0.4);border-radius:3px;padding:6px 14px;font-size:12px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--orange2);margin-bottom:20px;}
+.hero h1{font-family:var(--cond);font-size:clamp(38px,5vw,62px);font-weight:800;line-height:1.0;color:#fff;margin-bottom:20px;letter-spacing:0.01em;text-transform:uppercase;}
+.hero h1 span{color:var(--orange2);}
+.hero-sub{font-size:17px;font-weight:400;color:rgba(255,255,255,0.78);line-height:1.7;margin-bottom:36px;max-width:480px;}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px;}
+.hero-trust{display:flex;gap:24px;flex-wrap:wrap;}
+.trust-item{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:rgba(255,255,255,0.65);}
+.trust-check{width:18px;height:18px;background:rgba(232,86,10,0.2);border:1px solid var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:10px;color:var(--orange2);}
+
+/* CALL CARD */
+.call-card{background:var(--white);border-radius:8px;padding:36px 32px;box-shadow:0 20px 60px rgba(0,0,0,0.3);}
+.call-card-label{font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--orange);margin-bottom:6px;}
+.call-card-title{font-family:var(--cond);font-size:22px;font-weight:700;color:var(--navy);margin-bottom:4px;text-transform:uppercase;}
+.call-card-sub{font-size:13px;color:var(--text3);margin-bottom:24px;line-height:1.5;}
+.call-card-number{display:flex;align-items:center;justify-content:center;gap:12px;background:var(--navy);border-radius:6px;padding:20px;margin-bottom:16px;text-decoration:none;}
+.call-card-number-text{font-family:var(--cond);font-size:30px;font-weight:800;color:#fff;letter-spacing:0.02em;}
+.call-card-number-label{font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.5);text-align:center;margin-bottom:16px;}
+.call-card-form{display:flex;flex-direction:column;gap:10px;}
+.call-card-input{width:100%;padding:12px 16px;border:1.5px solid var(--border);border-radius:4px;font-family:var(--sans);font-size:14px;color:var(--text);outline:none;transition:border-color 0.2s;}
+.call-card-input:focus{border-color:var(--blue);}
+.call-card-input::placeholder{color:var(--text3);}
+.call-card-submit{width:100%;padding:14px;background:var(--orange);color:#fff;border:none;border-radius:4px;font-family:var(--sans);font-size:15px;font-weight:700;cursor:pointer;transition:all 0.2s;}
+.call-card-submit:hover{background:var(--orange2);}
+.call-card-disclaimer{text-align:center;font-size:11px;color:var(--text3);margin-top:8px;}
+
+/* SERVICES BAR */
+.services-bar{background:var(--orange);padding:18px 0;}
+.services-bar-inner{display:flex;align-items:center;justify-content:center;gap:40px;flex-wrap:wrap;}
+.sbar-item{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:#fff;letter-spacing:0.02em;}
+.sbar-dot{width:6px;height:6px;background:rgba(255,255,255,0.5);border-radius:50%;}
+
+/* INTRO */
+.intro{padding:80px 0;background:var(--white);}
+.intro-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.intro-body{font-size:15px;color:var(--text2);line-height:1.8;margin-bottom:16px;}
+.intro h2{font-family:var(--cond);font-size:clamp(28px,3.5vw,42px);font-weight:800;color:var(--navy);line-height:1.05;margin-bottom:20px;text-transform:uppercase;}
+.intro-stats{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px;}
+.i-stat{background:var(--bg);border-radius:6px;padding:20px;border-left:3px solid var(--orange);}
+.i-stat-val{font-family:var(--cond);font-size:32px;font-weight:800;color:var(--navy);line-height:1;margin-bottom:4px;}
+.i-stat-label{font-size:12px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.06em;}
+.intro-img{background:var(--bg);border-radius:8px;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+
+/* SERVICES */
+.services{padding:80px 0;background:var(--bg);}
+.services h2{font-family:var(--cond);font-size:clamp(28px,3.5vw,42px);font-weight:800;color:var(--navy);text-transform:uppercase;margin-bottom:48px;}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.service-card{background:var(--white);border-radius:6px;padding:32px 28px;border-top:3px solid var(--orange);transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.04);}
+.service-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,0.1);}
+.sc-icon{width:48px;height:48px;background:rgba(232,86,10,0.08);border-radius:6px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;}
+.sc-title{font-family:var(--cond);font-size:20px;font-weight:700;color:var(--navy);margin-bottom:10px;text-transform:uppercase;}
+.sc-body{font-size:14px;color:var(--text2);line-height:1.7;margin-bottom:16px;}
+.sc-link{font-size:13px;font-weight:700;color:var(--orange);letter-spacing:0.04em;}
+
+/* AREAS */
+.areas{padding:80px 0;background:var(--white);}
+.areas h2{font-family:var(--cond);font-size:clamp(28px,3.5vw,42px);font-weight:800;color:var(--navy);text-transform:uppercase;margin-bottom:12px;}
+.areas-sub{font-size:15px;color:var(--text2);margin-bottom:40px;max-width:560px;}
+.areas-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.area-card{background:var(--bg);border-radius:6px;padding:24px 20px;text-align:center;border:1.5px solid var(--border);transition:all 0.2s;cursor:pointer;}
+.area-card:hover{border-color:var(--orange);background:rgba(232,86,10,0.04);}
+.area-name{font-family:var(--cond);font-size:18px;font-weight:700;color:var(--navy);text-transform:uppercase;margin-bottom:4px;}
+.area-state{font-size:12px;font-weight:600;color:var(--text3);letter-spacing:0.08em;text-transform:uppercase;}
+
+/* WHY */
+.why{padding:80px 0;background:var(--navy);}
+.why h2{font-family:var(--cond);font-size:clamp(28px,3.5vw,42px);font-weight:800;color:#fff;text-transform:uppercase;margin-bottom:48px;}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
+.why-item{display:flex;gap:18px;align-items:flex-start;}
+.why-num{font-family:var(--cond);font-size:36px;font-weight:800;color:rgba(232,86,10,0.3);line-height:1;flex-shrink:0;margin-top:-4px;}
+.why-title{font-size:16px;font-weight:700;color:#fff;margin-bottom:8px;}
+.why-body{font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;}
+
+/* TESTIMONIALS */
+.testimonials{padding:80px 0;background:var(--bg);}
+.testimonials h2{font-family:var(--cond);font-size:clamp(28px,3.5vw,42px);font-weight:800;color:var(--navy);text-transform:uppercase;margin-bottom:40px;}
+.t-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.t-card{background:var(--white);border-radius:6px;padding:28px;box-shadow:0 2px 8px rgba(0,0,0,0.04);}
+.t-stars{color:var(--orange);font-size:14px;margin-bottom:14px;letter-spacing:2px;}
+.t-text{font-size:14px;color:var(--text2);line-height:1.75;margin-bottom:20px;font-style:italic;}
+.t-author{font-size:13px;font-weight:700;color:var(--navy);}
+.t-location{font-size:12px;color:var(--text3);}
+
+/* CTA BANNER */
+.cta-banner{background:var(--orange);padding:60px 0;}
+.cta-banner-inner{display:flex;align-items:center;justify-content:space-between;gap:40px;}
+.cta-banner h2{font-family:var(--cond);font-size:clamp(24px,3vw,38px);font-weight:800;color:#fff;text-transform:uppercase;line-height:1.05;}
+.cta-banner p{font-size:15px;color:rgba(255,255,255,0.85);margin-top:8px;}
+.cta-banner-right{display:flex;gap:14px;align-items:center;flex-shrink:0;}
+.btn-white{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--orange);border:none;border-radius:4px;padding:14px 28px;font-family:var(--sans);font-size:15px;font-weight:700;cursor:pointer;transition:all 0.2s;white-space:nowrap;}
+.btn-white:hover{background:var(--navy);color:#fff;}
+
+/* FOOTER */
+footer{background:var(--navy);padding:56px 0 32px;}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,0.1);}
+.footer-logo-main{font-family:var(--cond);font-size:22px;font-weight:800;color:#fff;text-transform:uppercase;margin-bottom:4px;}
+.footer-logo-main span{color:var(--orange2);}
+.footer-tagline{font-size:13px;color:rgba(255,255,255,0.5);margin-bottom:20px;line-height:1.6;}
+.footer-contact-item{display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,0.65);margin-bottom:10px;}
+.footer-contact-item a{color:var(--orange2);}
+.footer-col h4{font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:16px;}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.6);margin-bottom:10px;transition:color 0.2s;}
+.footer-col a:hover{color:var(--orange2);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;}
+.footer-bottom p{font-size:12px;color:rgba(255,255,255,0.35);}
+.footer-disclaimer{font-size:11px;color:rgba(255,255,255,0.25);max-width:500px;line-height:1.5;margin-top:6px;}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;}
+  .call-card{max-width:480px;}
+  .intro-inner{grid-template-columns:1fr;}
+  .intro-img{display:none;}
+  .services-grid{grid-template-columns:1fr 1fr;}
+  .areas-grid{grid-template-columns:1fr 1fr;}
+  .footer-top{grid-template-columns:1fr 1fr;gap:32px;}
+}
+@media(max-width:768px){
+  .topbar-left{display:none;}
+  .nav-links{display:none;}
+  .hero{padding:60px 0 70px;}
+  .services-grid{grid-template-columns:1fr;}
+  .why-grid{grid-template-columns:1fr;}
+  .t-grid{grid-template-columns:1fr;}
+  .cta-banner-inner{flex-direction:column;text-align:center;}
+  .services-bar-inner{gap:20px;}
+  .footer-top{grid-template-columns:1fr;}
+}
+
+.hero-img-bg{position:absolute;inset:0;background-size:cover;background-position:center top;z-index:0;}
+.hero-img-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(13,31,60,0.88) 0%,rgba(22,45,82,0.82) 60%,rgba(26,58,110,0.78) 100%);}
+.photo-section{padding:72px 0;background:var(--white);}
+.photo-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+.photo-img{border-radius:8px;overflow:hidden;position:relative;}
+.photo-img img{width:100%;height:100%;object-fit:cover;display:block;border-radius:8px;}
+.service-img{width:100%;height:200px;object-fit:cover;border-radius:6px 6px 0 0;display:block;}
+.hero-photo-wrap{position:relative;border-radius:8px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.4);}
+.hero-photo-wrap img{width:100%;height:100%;object-fit:cover;display:block;max-height:420px;}
+@media(max-width:1024px){.photo-inner{grid-template-columns:1fr;}}
+
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-left">
+      <span>📍 Serving Licking County, Ohio</span>
+      <span>⏰ Available 24/7 for Emergencies</span>
+    </div>
+    <a href="tel:YOUR-NUMBER" class="topbar-phone">
+      📞 Call Now — Free Estimates
+    </a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="container nav-inner">
+    <a href="/" class="logo">
+      <div class="logo-main">Licking County <span>HVAC</span></div>
+      <div class="logo-sub">Heating · Cooling · Service</div>
+    </a>
+    <div class="nav-links">
+      <a href="/services.html">Services</a>
+      <a href="/locations.html">Service Areas</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+    <a href="tel:YOUR-NUMBER"><button class="nav-cta">📞 Free Estimate</button></a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="position:relative;">
+  <div class="hero-img-bg" style="background-image:url('/images/hero-technician.jpg');"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-badge">⚡ Licking County's Trusted HVAC Experts</div>
+        <h1>Heating &amp; Cooling Repair in <span>Newark, Ohio</span></h1>
+        <p class="hero-sub">Fast, reliable HVAC service for homeowners across Licking County. Furnace repair, AC service, and full system installations — backed by local expertise and honest pricing.</p>
+        <div class="hero-btns">
+          <a href="tel:YOUR-NUMBER"><button class="btn-primary">📞 Call for Free Estimate</button></a>
+          <a href="/contact.html"><button class="btn-ghost">Request Service Online</button></a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><div class="trust-check">✓</div>Licensed & Insured</div>
+          <div class="trust-item"><div class="trust-check">✓</div>Same-Day Service</div>
+          <div class="trust-item"><div class="trust-check">✓</div>Free Estimates</div>
+          <div class="trust-item"><div class="trust-check">✓</div>Local Licking County</div>
+        </div>
+      </div>
+
+      <div class="call-card">
+        <div class="call-card-label">Get Help Today</div>
+        <div class="call-card-title">Request HVAC Service</div>
+        <div class="call-card-sub">Serving Newark, Heath, Granville, Pataskala, Utica, Buckeye Lake, Hebron, Johnstown, New Albany, and all of Licking County.</div>
+        <a href="tel:YOUR-NUMBER" class="call-card-number">
+          <span style="font-size:24px;">📞</span>
+          <span class="call-card-number-text">YOUR-NUMBER</span>
+        </a>
+        <div class="call-card-number-label">— or request a callback —</div>
+        <div class="call-card-form">
+          <input type="text" class="call-card-input" placeholder="Your Name">
+          <input type="tel" class="call-card-input" placeholder="Phone Number">
+          <input type="text" class="call-card-input" placeholder="City (Newark, Heath, Utica, Granville…)">
+          <button class="call-card-submit">Request a Free Estimate →</button>
+        </div>
+        <p class="call-card-disclaimer">No obligation. We respond within 2 hours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES BAR -->
+<div class="services-bar">
+  <div class="container services-bar-inner">
+    <div class="sbar-item">🔥 Furnace Repair</div>
+    <div class="sbar-dot"></div>
+    <div class="sbar-item">❄️ AC Repair</div>
+    <div class="sbar-dot"></div>
+    <div class="sbar-item">🛠️ HVAC Installation</div>
+    <div class="sbar-dot"></div>
+    <div class="sbar-item">🔧 System Tune-Ups</div>
+    <div class="sbar-dot"></div>
+    <div class="sbar-item">⚡ 24/7 Emergency Service</div>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="container">
+    <div class="intro-inner">
+      <div>
+        <div class="section-label">About Us</div>
+        <h2>Licking County's Local HVAC Experts</h2>
+        <p class="intro-body">When your furnace stops working in January or your AC gives out in August, you need someone who knows Licking County — and can get there fast. We serve Newark, Heath, Granville, Pataskala, Utica, Buckeye Lake, Hebron, Johnstown, New Albany, and the surrounding communities with honest, reliable HVAC service.</p>
+        <p class="intro-body">No national call centers. No surprise fees. Just qualified local technicians who show up on time, diagnose the problem accurately, and fix it right the first time — whether you're in a Newark ranch home or a Granville farmhouse.</p>
+        <div class="intro-stats">
+          <div class="i-stat">
+            <div class="i-stat-val">24/7</div>
+            <div class="i-stat-label">Emergency Service</div>
+          </div>
+          <div class="i-stat">
+            <div class="i-stat-val">Free</div>
+            <div class="i-stat-label">Estimates Always</div>
+          </div>
+          <div class="i-stat">
+            <div class="i-stat-val">Same</div>
+            <div class="i-stat-label">Day Appointments</div>
+          </div>
+          <div class="i-stat">
+            <div class="i-stat-val">Local</div>
+            <div class="i-stat-label">Licking County Based</div>
+          </div>
+        </div>
+      </div>
+      <div class="intro-img" style="background:none;border:none;">
+        <img src="/images/furnace-repair.jpg" alt="HVAC technician repairing furnace in Licking County Ohio" style="width:100%;height:100%;object-fit:cover;border-radius:8px;min-height:360px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-label">What We Do</div>
+    <h2>HVAC Services in Licking County</h2>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="sc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8560A" stroke-width="2"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="4"/></svg>
+        </div>
+        <div class="sc-title">Furnace Repair</div>
+        <p class="sc-body">Furnace not heating? Strange noises or smells? Our technicians diagnose and repair all makes and models of gas, electric, and oil furnaces in Newark, Heath, Utica, Johnstown, and throughout Licking County.</p>
+        <a href="/furnace-repair.html" class="sc-link">Learn More →</a>
+      </div>
+
+      <div class="service-card">
+        <div class="sc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8560A" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <div class="sc-title">AC Repair & Service</div>
+        <p class="sc-body">When your air conditioning fails in the heat of an Ohio summer, we respond fast. We repair all brands of central air systems and heat pumps in Granville, Pataskala, Buckeye Lake, Hebron, and across Licking County.</p>
+        <a href="/ac-repair.html" class="sc-link">Learn More →</a>
+      </div>
+
+      <div class="service-card">
+        <div class="sc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8560A" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="sc-title">HVAC Installation</div>
+        <p class="sc-body">Ready to replace an aging system? We install high-efficiency heating and cooling systems sized correctly for your home. Honest quotes, no-pressure consultations.</p>
+        <a href="/hvac-installation.html" class="sc-link">Learn More →</a>
+      </div>
+
+      <div class="service-card">
+        <div class="sc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8560A" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <div class="sc-title">Heating Tune-Up</div>
+        <p class="sc-body">Keep your furnace running efficiently all winter. Annual tune-ups catch small problems before they become expensive breakdowns — and lower your monthly energy bills.</p>
+        <a href="/hvac-tune-up.html" class="sc-link">Learn More →</a>
+      </div>
+
+      <div class="service-card">
+        <div class="sc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8560A" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div class="sc-title">24/7 Emergency HVAC</div>
+        <p class="sc-body">HVAC emergencies don't wait for business hours. We offer emergency heating and cooling service across Licking County — day, night, weekends, and holidays.</p>
+        <a href="/emergency-hvac.html" class="sc-link">Learn More →</a>
+      </div>
+
+      <div class="service-card">
+        <div class="sc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8560A" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="sc-title">Heat Pump Service</div>
+        <p class="sc-body">Heat pumps are becoming the standard in Ohio homes. We install, repair, and maintain all major heat pump brands — keeping your home comfortable year-round.</p>
+        <a href="/heat-pump.html" class="sc-link">Learn More →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREAS -->
+<section class="areas" id="locations">
+  <div class="container">
+    <div class="section-label">Where We Serve</div>
+    <h2>HVAC Service Throughout Licking County</h2>
+    <p class="areas-sub">We serve homeowners and businesses throughout Licking County, Ohio. If you're not sure we cover your area, just call — we'll let you know right away.</p>
+    <div class="areas-grid">
+      <a href="/newark-ohio-hvac.html" class="area-card">
+        <div class="area-name">Newark</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/heath-ohio-hvac.html" class="area-card">
+        <div class="area-name">Heath</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/granville-ohio-hvac.html" class="area-card">
+        <div class="area-name">Granville</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/pataskala-ohio-hvac.html" class="area-card">
+        <div class="area-name">Pataskala</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/utica-ohio-hvac.html" class="area-card">
+        <div class="area-name">Utica</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/buckeye-lake-ohio-hvac.html" class="area-card">
+        <div class="area-name">Buckeye Lake</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/hebron-ohio-hvac.html" class="area-card">
+        <div class="area-name">Hebron</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/johnstown-ohio-hvac.html" class="area-card">
+        <div class="area-name">Johnstown</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+      <a href="/new-albany-ohio-hvac.html" class="area-card">
+        <div class="area-name">New Albany</div>
+        <div class="area-state">Licking County, OH</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why">
+  <div class="container">
+    <div class="section-label" style="color:var(--orange2);">Why Choose Us</div>
+    <h2>What Makes Us Different</h2>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-num">01</div>
+        <div>
+          <div class="why-title">Truly Local — We Know Licking County</div>
+          <p class="why-body">We're not a Columbus company with a service area page. We're based in Licking County and serve Newark, Heath, Granville, Pataskala, Utica, Buckeye Lake, Hebron, Johnstown, and New Albany. We know the systems, the neighborhoods, and the conditions.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-num">02</div>
+        <div>
+          <div class="why-title">Upfront Pricing — No Surprises</div>
+          <p class="why-body">We give you a clear estimate before any work begins. No hidden fees. No upselling you equipment you don't need. Just honest pricing for the work that actually needs to be done.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-num">03</div>
+        <div>
+          <div class="why-title">Fast Response — Same Day Available</div>
+          <p class="why-body">When your heat goes out, waiting days isn't an option. We offer same-day appointments and 24/7 emergency service so you're never left in the cold — or the heat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-label">Reviews</div>
+    <h2>What Licking County Homeowners Say</h2>
+    <div class="t-grid">
+      <div class="t-card">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-text">"Called at 11pm on a Thursday in February — furnace was completely out. Technician was at our house in Newark by 1am and had heat back on by 2:30. Saved us. Can't thank them enough."</p>
+        <div class="t-author">Mike R.</div>
+        <div class="t-location">Newark, OH</div>
+      </div>
+      <div class="t-card">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-text">"Got three quotes for a new system. Licking County HVAC came in fair, explained everything clearly, and actually showed up when they said they would. Install in Heath went perfectly. Very happy."</p>
+        <div class="t-author">Jennifer L.</div>
+        <div class="t-location">Heath, OH</div>
+      </div>
+      <div class="t-card">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-text">"AC went out the week before Fourth of July. Called in the morning, they were out to our place near Granville by early afternoon. Quick fix, fair price, no upsell. Would absolutely call again."</p>
+        <div class="t-author">Tom & Carol W.</div>
+        <div class="t-location">Granville, OH</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container cta-banner-inner">
+    <div>
+      <h2>Ready for Fast, Reliable HVAC Service?</h2>
+      <p>Serving Newark, Heath, Granville, Pataskala, Utica, Buckeye Lake, Hebron, Johnstown, New Albany, and all of Licking County, Ohio.</p>
+    </div>
+    <div class="cta-banner-right">
+      <a href="tel:YOUR-NUMBER"><button class="btn-white">📞 Call Now — Free Estimate</button></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">Licking County <span>HVAC</span></div>
+        <p class="footer-tagline">Heating, cooling, and HVAC service for homeowners across Newark, Heath, Granville, Pataskala, Utica, Buckeye Lake, Hebron, Johnstown, and New Albany, Ohio.</p>
+        <p class="footer-contact">📞 <a href="tel:YOUR-NUMBER">YOUR-NUMBER</a></p>
+        <p class="footer-contact">📍 Serving Licking County, Ohio</p>
+        <p class="footer-contact">⏰ 24/7 Emergency Available</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="/furnace-repair.html">🔥 Furnace Repair</a>
+        <a href="/ac-repair.html">❄️ AC Repair</a>
+        <a href="/hvac-installation.html">🛠️ HVAC Installation</a>
+        <a href="/hvac-tune-up.html">🔧 HVAC Tune-Up</a>
+        <a href="/emergency-hvac.html">⚡ Emergency HVAC</a>
+        <a href="/heat-pump.html">♻️ Heat Pump Service</a>
+      </div>
+      <div class="footer-col">
+        <h4>Service Areas</h4>
+        <a href="/newark-ohio-hvac.html">Newark, OH</a>
+        <a href="/heath-ohio-hvac.html">Heath, OH</a>
+        <a href="/granville-ohio-hvac.html">Granville, OH</a>
+        <a href="/pataskala-ohio-hvac.html">Pataskala, OH</a>
+        <a href="/utica-ohio-hvac.html">Utica, OH</a>
+        <a href="/buckeye-lake-ohio-hvac.html">Buckeye Lake, OH</a>
+        <a href="/hebron-ohio-hvac.html">Hebron, OH</a>
+        <a href="/johnstown-ohio-hvac.html">Johnstown, OH</a>
+        <a href="/new-albany-ohio-hvac.html">New Albany, OH</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="/about.html">About Us</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/faq.html">HVAC FAQ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Licking County HVAC. All rights reserved. &nbsp;·&nbsp; Licensed & Insured HVAC Contractors &nbsp;·&nbsp; Licking County, Ohio</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
