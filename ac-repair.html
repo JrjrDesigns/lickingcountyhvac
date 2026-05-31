@@ -297,5 +297,26 @@
     </div>
   </div>
 </footer>
+<script>
+document.querySelectorAll(".call-card-submit").forEach(function(btn) {
+  btn.addEventListener("click", function() {
+    var card = btn.closest(".call-card-form");
+    var inputs = card.querySelectorAll(".call-card-input");
+    var name    = inputs[0] ? inputs[0].value : "";
+    var phone   = inputs[1] ? inputs[1].value : "";
+    var city    = inputs[2] ? inputs[2].value : "";
+    var service = inputs[3] ? inputs[3].value : "";
+    fetch("https://james-francis.app.n8n.cloud/webhook/563fe81b-2b63-4b1a-8c15-2316d30553c0", {
+      method: "POST",
+      headers: {"Content-Type": "application/x-www-form-urlencoded"},
+      body: new URLSearchParams({name: name, phone: phone, city: city, service: service})
+    }).then(function() {
+      window.location.href = "https://lickingcountyhvac.com/thank-you.html";
+    }).catch(function() {
+      window.location.href = "https://lickingcountyhvac.com/thank-you.html";
+    });
+  });
+});
+</script>
 </body>
 </html>
